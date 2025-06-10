@@ -94,6 +94,7 @@
         compatible = "zmk,kscan-mock";
         columns = <14>;
         rows = <5>;
+        events = <0>;
     };
 
     default_transform: keymap_transform_0 {
