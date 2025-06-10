@@ -8,7 +8,7 @@
 #include <physical_layouts.dtsi>
 / {
     chosen {
-        zmk,kscan = &mock_kscan;
+        zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
     };
 
@@ -88,13 +88,6 @@
             , <&key_physical_attrs 100 100 1650  438       0     0     0>
             , <&key_physical_attrs 100 100 1750  438       0     0     0>
             ;
-    };
-
-    mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <14>;
-        rows = <5>;
-        events = <0>;
     };
 
     default_transform: keymap_transform_0 {
