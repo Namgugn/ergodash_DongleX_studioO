@@ -1,6 +1,0 @@
-/ {
-    output-behaviors {
-        compatible = "zmk,output-behaviors";
-        behaviors = <&output_usb &output_bluetooth>;
-    };
-};
