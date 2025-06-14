@@ -58,8 +58,8 @@
             bindings = <
 &kp F11         &kp F1       &kp F2      &kp F3  &kp F4  &kp F5  &none                  &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
 &studio_unlock  &kp HOME     &kp END     &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none    &none
-&out OUT_TOG    &none        &none       &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none    &none
-&trans          &bootloader  &sys_reset  &none   &none   &none                                 &none   &none   &none   &none   &none    &trans
+&out output_usb    &none        &none       &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none    &none
+&out output_bluetooth         &bootloader  &sys_reset  &none   &none   &none                                 &none   &none   &none   &none   &none    &trans
 &trans          &none        &none       &trans  &trans          &none  &trans  &trans  &none          &trans  &none   &none   &none    &trans
             >;
         };
