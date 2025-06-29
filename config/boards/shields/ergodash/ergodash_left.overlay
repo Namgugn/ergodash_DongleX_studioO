@@ -12,10 +12,6 @@
         zmk,physical-layout = &physical_layout0;
     };
 
-    &bluetooth {
-    /* HID 키보드로 명확히 인식되도록 Appearance 값을 명시 */
-    peripheral-appearance = <961>;  // 961 = HID Keyboard
-    };
     
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
