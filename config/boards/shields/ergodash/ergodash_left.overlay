@@ -12,9 +12,6 @@
         zmk,physical-layout = &physical_layout0;
     };
 
-    &bluetooth {
-    peripheral-appearance = <961>;  // 961 = HID Keyboard
-    };
     
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
